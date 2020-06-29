@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.getRandomCitata.GetRandomCitataFragment">
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/activity_background" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/baseLayoutMarginLeftRight"
+        android:layout_marginLeft="@dimen/baseLayoutMarginLeftRight"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="@dimen/baseLayoutMarginLeftRight"
+        android:layout_marginRight="@dimen/baseLayoutMarginLeftRight"
+        android:layout_marginBottom="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/greetingsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginBottom="10dp"
+
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/greetingsTextView"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/contentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/greetingsTextView"
+            android:layout_centerHorizontal="true"
+
+            android:fontFamily="sans-serif"
+            android:gravity="left"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/authorTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contentTextView"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="20dp"
+
+            android:fontFamily="sans-serif"
+            android:gravity="right"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/creationDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/authorTextView"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="10dp"
+
+            android:fontFamily="sans-serif"
+            android:gravity="right"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/getCitataButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/getRundomCitataButtonText"
+        android:textColor="#000"
+        android:alpha="0.6"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

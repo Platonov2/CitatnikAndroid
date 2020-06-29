@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CitatnikAndroid</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_random">Случайная цитата</string>
+    <string name="menu_add">Создать цитату</string>
+    <string name="menu_list">Список</string>
+    <string name="menu_settings">Настройки</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="greetingsTextView">Приветствуем Вас в цитатнике!</string>
+    <string name="authorTextView">Автор:</string>
+    <string name="dateTextView">Дата:</string>
+    <string name="contentTextView">Цитата:</string>
+    <string name="textAddCitataGreetings">Исток цитат - Вы сами</string>
+    <string name="addCitataContentHint">Афоризм - законченная мысль, отличающаяся своей оригинальностью.</string>
+    <string name="addCitataTextButton">Добавить цитату</string>
+    <string name="settingsGreetingsText">Удобное приложение - залог удобства!</string>
+    <string name="maxListLengthTextViewText">Кол-во цитат в списке:</string>
+    <string name="saveSettingsButtonText">Сохранить настройки</string>
+
+    <string name="getRundomCitataButtonText">Случайная цитата</string>
+    <string name="widgetContentText">Виджет обновляется каждые 40 минут.</string>
+    <string name="widgetAuthorText">Разработчик</string>
+    <string name="widgetDateText">Где-то в 2020 г.</string>
+</resources>
